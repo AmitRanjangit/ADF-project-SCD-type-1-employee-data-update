@@ -31,7 +31,7 @@ The target table is defined as follows:
 | FirstName   | VARCHAR       | First name of the employee   |
 | LastName    | VARCHAR       | Last name of the employee    |
 | Department  | VARCHAR       | Department name              |
-| Salary      | DECIMAL(10,2) | Current salary               |
+| Salary      | INT           | Current salary               |
 | LastUpdated | DATE          | Date of the last update      |
 
 The table is designed for SCD Type 1, which means:
